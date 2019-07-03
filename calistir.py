@@ -14,7 +14,7 @@ xmldosyasi = "cikti.xml";
 xmlden_okunacak_adet = 10;
 #########################
 
-#CURL ile veriyi çekme
+#Veriyi çekme
 r=requests.get(veri_adresi, headers={"content-type":"text"})
 #########################
 
